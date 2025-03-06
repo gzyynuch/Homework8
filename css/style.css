@@ -23,6 +23,7 @@
 }
 .bg-blue {
   background-color: #6495ed;
+  position: relative;
 }
 .bg-pink {
   background-color: #ff8da1;
@@ -30,7 +31,7 @@
 .product1 {
   background-color: rgb(193, 191, 191);
   padding: 50px 50px;
-  position: relative;
+  /* position: relative; */
 }
 
 .bg-blue .item {
@@ -43,9 +44,10 @@
 .product2 {
   background-color: aliceblue;
   padding: 50px 50px;
-  position: relative;
+  /* position: relative; */
 }
 .product2 .bg-blue {
+  position: relative;
   margin-left: 500px;
 }
 .product2 .bg-blue .item {
